@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<h1>我的博客</h1>
+{% endblock %}
+
+{% block content %}
+<li><a href="{% url 'article-list' %}">文章列表</a></li>
+{% endblock %}

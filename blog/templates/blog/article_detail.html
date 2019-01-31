@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+{% block title %}
+<h2> {{ article.title }} </h2>
+<h5>{{ article.pub_time }}</h5>
+{% endblock %} 
+
+{% block content %}
+    <p>
+        {{ article.content }}
+    </p>
+
+{% endblock %}
